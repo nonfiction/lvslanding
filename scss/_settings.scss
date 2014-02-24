@@ -116,7 +116,7 @@ $body-bg: scale-color($grey, $lightness: 70%);
 $header-font-family: 'VAG Rounded W01 Thin', sans-serif;
 // $header-font-weight: 300;
 // $header-font-style: normal;
-$header-font-color: #3daf2c;
+$header-font-color: #fff;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -158,9 +158,10 @@ $h2-font-size: rem-calc(20);
 // $code-font-weight: bold;
 
 // We use these to style anchors
-// $anchor-text-decoration: none;
-$anchor-font-color: #3daf2c;
-$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
+$anchor-text-decoration: underline;
+$a-color: #3daf2c;
+$anchor-font-color: scale-color($a-color, $lightness: -30%);
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: 20%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
